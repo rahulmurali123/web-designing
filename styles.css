@@ -1,0 +1,107 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a max-width for the body to prevent excessive stretching on larger screens */
+  body {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Main container */
+  .c {
+    background-color: aqua;
+    padding: 10px 0;
+  }
+  
+  /* Logo and price section */
+  .d {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .b {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  /* Search form */
+  .example {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .example input[type="text"] {
+    padding: 10px;
+    width: 70%;
+  }
+  
+  .example button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Date and time */
+  .k {
+    text-align: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+  }
+  
+  .h {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  /* Image and text section */
+  .x {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .x img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .x h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .d {
+      font-size: 20px;
+    }
+  
+    .b {
+      font-size: 14px;
+    }
+  
+    .h {
+      font-size: 12px;
+    }
+  
+    .example input[type="text"] {
+      width: 100%;
+    }
+  
+    img {
+      margin-left: 0;
+    }
+  
+    .j, .k {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+  }
+  

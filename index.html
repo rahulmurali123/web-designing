@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    <script>
+        window.onload = function() {
+        // Create a Date object
+  var date = new Date();
+  
+  // Get the current date and time
+  var currentDate = date.toLocaleDateString();
+  var currentTime = date.toLocaleTimeString();
+  
+  document.getElementById('currentDate').innerHTML = currentDate;
+  document.getElementById('currentTime').innerHTML = currentTime;
+        }
+      </script>
+</head>
+<body class="a">
+    <div class="c">
+        <div class="j">
+            <h1 class="d">themindsetinvestor</h1>
+            <h3 class="b">NSE PRICE: 2345</h3>
+            <h3 class="e">BSE PRICE: 5678</h3>
+        </div>
+        <form class="example" action="action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit">Submit<i class="fa"></i></button>
+        </form> 
+        <div class="k">
+            <h5 class="h">DATE: <span id="currentDate"></span>
+                TIME: <span id="currentTime"></span></h5>
+        </div>
+    </div>
+    <div class="x">
+        <img src="https://cdn-news.warriortrading.com/wp-content/uploads/2019/02/15080729/warren-buffett.jpg" alt="warren-buffett">
+        <h3>If You Don't Find A Way To Make Money While You Sleep....</h3>
+        <h3>You Will Work Until You Die!!</h3>
+    </div>
+</body>
+</html>
